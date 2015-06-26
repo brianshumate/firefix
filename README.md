@@ -10,8 +10,19 @@
 
 Firefix is a custom `user.js` file for Mozilla Firefox.
 
-The aim is to disable numerous features which can leak information to
-third parties while you are browsing the web with Firefox.
+The aim is to disable numerous features which can leak sensitive
+information to third parties while you are browsing the web with
+Firefox, including the following items:
+
+* Enable Google Safe Browsing, but don't leak browsing history
+* Disable Firefox stability/performance reporting
+* Disable Telemetry usage statistics reporting
+* Disable WebRTC to prevent leaking of your IP address
+* Disable Encrypted Media Extensions
+* Disable Firefox Hello
+* Disable Pocket integration
+* Disable Geolocation
+* Disable Search suggestions
 
 ## Usage
 
