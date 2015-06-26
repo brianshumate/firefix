@@ -49,6 +49,8 @@ cd firefix
 copy user.js %APPDATA%\Mozilla\Firefox\Profiles\*.default\
 ```
 
+If Firefox is running, you should restart it to affect the changes.
+
 ## Thanks
 
 Firefix was inspired by the work in 
